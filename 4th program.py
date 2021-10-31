@@ -1,4 +1,4 @@
-# Formation of lines
+# Formation of line tests
 name = "fedor"
 age = 12
 print('My name is %s, and I am %s years old' % (name, age))
