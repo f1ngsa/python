@@ -29,12 +29,13 @@ if age == "yes" or age == "Yes":
     if actualage > 10 and actualage < 20:
         print("Access granted!")"""
 
-"""score = int(input("Enter your score: "))
-if score >= 50:
-        print("Good score")
-else:
-    print("Not so good score")"""
-number = int(input("Enter a number: "))
+score = int(input("Enter your score: "))
+if score <= 40:
+        print("Not a good score")
+elif score 
+    print("Not so good score")
+
+"""number = int(input("Enter a number: "))
 if number % 2 == 0 and number % 5 == 0 and number % 3 == 0:
     print("2, 3 5")
 elif number % 2 == 0 and number % 3 == 0:
@@ -42,4 +43,4 @@ elif number % 2 == 0 and number % 3 == 0:
 elif number % 2 == 0:
     print("2")
 elif number % 2 and number % 3 and number % 5:
-    print("0")
+    print("0")""""
