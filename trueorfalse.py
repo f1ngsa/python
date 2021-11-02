@@ -32,9 +32,14 @@ if age == "yes" or age == "Yes":
 score = int(input("Enter your score: "))
 if score <= 40:
         print("Not a good score")
-elif score 
-    print("Not so good score")
-
+elif score >= 41 and <= 60:
+    print("Not bad")
+elif score >= 60 and <= 80:
+    print("Good score")
+elif score >=81 and <= 90:
+    print("Very good score")
+elif score >=91 and <=103:
+    print("Amazing score")
 """number = int(input("Enter a number: "))
 if number % 2 == 0 and number % 5 == 0 and number % 3 == 0:
     print("2, 3 5")
