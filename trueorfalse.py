@@ -35,9 +35,9 @@ if score <= 40:
 elif score >= 41 and score <= 60:
     print("Not bad")
 elif score >= 60 and score <= 80:
-    print("Good score")
+    print("Meh score")
 elif score >= 81 and score <= 90:
-    print("Very good score")
+    print("Good score")
 elif score >= 91 and score <= 103:
     print("Amazing score")
     
