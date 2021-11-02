@@ -28,7 +28,7 @@ if age == "yes" or age == "Yes":
     actualage = int(input("Enter your age: "))
     if actualage > 10 and actualage < 20:
         print("Access granted!")"""
-
+#comment
 score = int(input("Enter your score: "))
 if score <= 40:
         print("Not a good score")
