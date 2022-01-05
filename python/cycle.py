@@ -6,9 +6,17 @@ while True:
         continue
     elif favnumber == "yes":
         break"""
+from random import randint 
+number = randint(1,10)
 counter = 0
-while True:
-    print(counter)
-    counter += 5
-    if counter == 105:
-        break
+sum = 0
+while number != 10:
+    counter += 1
+    sum += number
+    print(number)
+    number = randint(1,10)
+print(number)
+counter += 1
+sum += 10
+print(f"You got a number 10 after {counter} tries")
+print(f"Totalt sum is {sum})
