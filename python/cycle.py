@@ -19,4 +19,4 @@ print(number)
 counter += 1
 sum += 10
 print(f"You got a number 10 after {counter} tries")
-print(f"Totalt sum is {sum})
+print(f"Total sum is {sum}")
